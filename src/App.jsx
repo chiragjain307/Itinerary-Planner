@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className='dark:bg-black dark:text-white'>
       <Navbar />
       
       <main>
@@ -17,7 +17,7 @@ function App() {
       </main>
       
       <Footer />
-    </>
+    </div>
   )
 }
 
